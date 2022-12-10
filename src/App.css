@@ -1,0 +1,139 @@
+@font-face {
+  font-family: Aquire;
+  src: url(./assets/fonts/AquireBold-8Ma60.otf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: "border-box";
+}
+.home-head {
+  font-family: Aquire;
+
+  text-shadow: 900;
+}
+
+.home-head-1 {
+  animation: ani-homehead1 15s infinite;
+}
+@keyframes ani-homehead1 {
+  0% {
+    background: -webkit-linear-gradient(45deg, #4facfe, #00f2fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  33% {
+    background: -webkit-linear-gradient(45deg, #4facfe, #00f2fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  40% {
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  90% {
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  100% {
+    background: -webkit-linear-gradient(45deg, #4facfe, #00f2fe);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+.home-head-2 {
+  animation: ani-homehead2 15s infinite;
+}
+@keyframes ani-homehead2 {
+  0% {
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  20% {
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  34% {
+    background: -webkit-linear-gradient(45deg, #6a11cb 0%, #2575fc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  66% {
+    background: -webkit-linear-gradient(45deg, #6a11cb 0%, #2575fc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  80% {
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  100% {
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+.home-head-3 {
+  animation: ani-homehead3 15s infinite;
+}
+@keyframes ani-homehead3 {
+  0% {
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  60% {
+    background: white;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  67% {
+    background: -webkit-linear-gradient(45deg, #f83600 0%, #f9d423 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  95% {
+    background: -webkit-linear-gradient(45deg, #f83600 0%, #f9d423 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+.home-registerNow {
+  animation: ani-home-registerNow 15s infinite;
+}
+@keyframes ani-home-registerNow {
+  0% {
+    background: -webkit-linear-gradient(45deg, #4facfe, #00f2fe);
+    box-shadow: 4px 2px 40px #00f2fe;
+  }
+  33% {
+    background: -webkit-linear-gradient(45deg, #4facfe, #00f2fe);
+    box-shadow: 4px 2px 40px #00f2fe;
+  }
+  34% {
+    background: -webkit-linear-gradient(45deg, #6a11cb 0%, #2575fc 100%);
+
+    box-shadow: 4px 2px 40px #2575fc;
+  }
+  66% {
+    background: -webkit-linear-gradient(45deg, #6a11cb 0%, #2575fc 100%);
+
+    box-shadow: 4px 2px 40px #2575fc;
+  }
+  67% {
+    background: -webkit-linear-gradient(45deg, #f83600 0%, #f9d423 100%);
+
+    box-shadow: 4px 2px 40px #f9d423;
+  }
+  99% {
+    background: -webkit-linear-gradient(45deg, #f83600 0%, #f9d423 100%);
+
+    box-shadow: 4px 2px 40px #f9d423;
+  }
+}
+
