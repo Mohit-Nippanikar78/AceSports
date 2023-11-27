@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
 import IconMenu from "../assets/images/iconmenu.png";
-import { motion, useAnimation } from "framer-motion";
+import { motion } from "framer-motion";
 import { useSpring, animated } from "@react-spring/web";
 import "../App.css";
-import crossPng from "../assets/images/crossTransparent.png";
 import plusPng from "../assets/images/plusTransparent.png";
 import { useNavigate } from "react-router-dom";
 const Navbar = ({}) => {

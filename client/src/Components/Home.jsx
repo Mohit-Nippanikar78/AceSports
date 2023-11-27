@@ -3,26 +3,9 @@ import { FaAsterisk } from "react-icons/fa";
 import { motion } from "framer-motion";
 import gsap from "gsap";
 import SplitTextToChars from "../hooks/SplitTextToChars";
-import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import { useInView } from "react-intersection-observer";
 const Home = ({ inView, reff }) => {
-  useEffect(() => {
-    console.log(inView);
-
-    return () => {};
-  }, [inView]);
-
   const wavyTextRef = useRef();
-  const particleRef = useRef();
-  const particlesInit = useCallback(async (engine) => {
-    await loadFull(engine);
-  }, []);
-
-  const particlesLoaded = useCallback(async (container) => {
-    await console.log(container);
-  }, []);
-
   useEffect(() => {
     if (!wavyTextRef.current) return;
     const chars = SplitTextToChars(wavyTextRef.current);

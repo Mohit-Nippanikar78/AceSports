@@ -9,8 +9,7 @@ import About from "./Components/About";
 import Sponsors from "./Components/Sponsors";
 import SponsorMail from "./Components/Contact";
 import Sport from "./Components/Sport";
-import { Route, Router, Routes } from "react-router-dom";
-import Sidebar from "./Components/Sidebar";
+import { Route, Routes } from "react-router-dom";
 const App = () => {
   const app = useRef();
   const scrollContainer = useRef();
@@ -23,38 +22,6 @@ const App = () => {
       scrollContainer.current.getBoundingClientRect().height
     }px`;
   }, [size.height]);
-
-  // const skewConfigs = React.useMemo(
-  //   () => ({
-  //     ease: 0.4,
-  //     current: 0,
-  //     previous: 0,
-  //     rounded: 0,
-  //   }),
-  //   []
-  // );
-  // const skewScrolling = useCallback(() => {
-  //   skewConfigs.current = window.scrollY;
-  //   skewConfigs.previous +=
-  //     (skewConfigs.current - skewConfigs.previous) * skewConfigs.ease;
-  //   skewConfigs.rounded = Math.round(skewConfigs.previous * 100) / 100;
-
-  //   const diff = skewConfigs.current - skewConfigs.rounded;
-  //   const acceleration = diff / size.width;
-
-  //   const velocity = +acceleration;
-  //   const skew = velocity * 70;
-
-  //   scrollContainer.current.style.transform = `translate3d(0,-${skewConfigs.rounded}px,0) skewY(${skew}deg)`;
-
-  //   requestAnimationFrame(() => skewScrolling());
-  // }, [size.width, skewConfigs]);
-
-  // React.useEffect(() => {
-  //   requestAnimationFrame(() => skewScrolling());
-
-  // }, [skewScrolling]);
-
   return (
     <div className="bg-black text-white">
       <div className="fixed w-full top-0 z-50 right-0">
