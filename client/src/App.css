@@ -2,15 +2,21 @@
   font-family: Aquire;
   src: url(./assets/fonts/AquireBold-8Ma60.otf);
 }
+body{
+  overflow-x: hidden;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: "border-box";
+  user-select: none;
 }
 .home-head {
   font-family: Aquire;
-
   text-shadow: 900;
+}
+.pagers {
+  font-family: Aquire;
 }
 
 .home-head-1 {
@@ -137,3 +143,14 @@
   }
 }
 
+.domain-card-circle {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+
+  right: -10em;
+  z-index: 5;
+  background-color: #fbbe01;
+  border-radius: 50%;
+  /* background-color: #28FF0D */
+}

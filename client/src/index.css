@@ -3,6 +3,7 @@
 @tailwind utilities;
 body {
   margin: 0;
+  height:auto Imp !important;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

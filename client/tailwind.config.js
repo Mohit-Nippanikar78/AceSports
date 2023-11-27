@@ -38,6 +38,13 @@ module.exports = {
         350: '350px',
         620: '620px',
       },
+      listStyleType: {
+        none: 'none',
+        disc: 'disc',
+        decimal: 'decimal',
+        square: 'square',
+        roman: 'upper-roman',
+      },
       textColor: {
         lightGray: '#F1EFEE',
         primary: '#FAFAFA',
